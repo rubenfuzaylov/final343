@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Menu from './components/Menu';
 
 export default function Home() {
   return (
@@ -15,23 +16,7 @@ export default function Home() {
           <p className="text-lg">Serving Queens with delicious Mexican cuisine!</p>
         </section>
 
-        <section>
-          <h3 className="text-2xl font-bold text-center mb-4">Customer Favorites</h3>
-          <div className="flex justify-center gap-6">
-            <div className="bg-pink-100 text-pink-800 p-4 rounded shadow-md w-40 text-center">
-              <p className="font-bold">Taco</p>
-              <p>$4</p>
-            </div>
-            <div className="bg-pink-100 text-pink-800 p-4 rounded shadow-md w-40 text-center">
-              <p className="font-bold">Jarrito Soda</p>
-              <p>$2.50</p>
-            </div>
-            <div className="bg-pink-100 text-pink-800 p-4 rounded shadow-md w-40 text-center">
-              <p className="font-bold">Nachos with Guacamole</p>
-              <p>$11</p>
-            </div>
-          </div>
-        </section>
+        <Menu />
 
         <section className="mt-12 text-center max-w-3xl mx-auto">
           <h3 className="text-2xl font-bold mb-2">About Us</h3>
