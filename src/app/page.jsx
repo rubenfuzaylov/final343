@@ -24,6 +24,24 @@ export default function Home() {
             We are a new food truck company providing a burst of flavor and spice to the streets of Queens, New York. Every item is made with love and passion from nachos to tacos.
           </p>
         </section>
+
+        <section className="mt-16 max-w-3xl mx-auto bg-pink-100 p-6 rounded-lg shadow">
+          <h3 className="text-2xl font-bold text-center text-pink-700 mb-4">FAQ</h3>
+          <div className="space-y-6">
+            <div>
+              <h4 className="font-semibold text-lg">Where are you located?</h4>
+              <p className="text-gray-700">We serve the Queens area in New York, often found near college campuses and public parks.</p>
+            </div>
+            <div>
+              <h4 className="font-semibold text-lg">Do you accept credit cards?</h4>
+              <p className="text-gray-700">Yes, we accept all major credit cards as well as mobile payments.</p>
+            </div>
+            <div>
+              <h4 className="font-semibold text-lg">Are your ingredients fresh?</h4>
+              <p className="text-gray-700">Absolutely! All our ingredients are sourced daily from local vendors to ensure quality and freshness.</p>
+            </div>
+          </div>
+        </section>
       </div>
     </main>
   );
