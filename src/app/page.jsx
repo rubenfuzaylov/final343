@@ -33,7 +33,7 @@ export default function Home() {
           <div className="space-y-6">
             <div>
               <h4 className="font-semibold text-lg">Where are you located?</h4>
-              <p className="text-gray-700">We serve the Queens area in New York, often found near college campuses and public parks.</p>
+              <p className="text-gray-700">We’re located in Queens Center Mall in Elmhurst, Queens, New York and in Kissena Park, Flushing, Queens, New York.</p>
             </div>
             <div>
               <h4 className="font-semibold text-lg">Do you accept credit cards?</h4>
