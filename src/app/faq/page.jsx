@@ -7,7 +7,7 @@ export default function FAQPage() {
           <div>
             <h4 className="font-semibold text-lg">Where are you located?</h4>
             <p className="text-gray-700">
-              We’re located in Queens Center Mall in Elmhurst, Queens, New York and in Kissena Park, Flushing, Queens, New York.
+              We are located in Queens Center Mall in Elmhurst, Queens, New York and in Kissena Park, Flushing, Queens, New York.
             </p>
           </div>
           <div>
